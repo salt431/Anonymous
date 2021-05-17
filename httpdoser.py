@@ -68,6 +68,10 @@ def useragent_list():
 	headers_useragents.append('Mozilla/5.0 (iPhone; CPU iPhone OS 11_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15')
 	headers_useragents.append('Mozilla/5.0 (iPad; CPU OS 11_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15')
 	headers_useragents.append('Mozilla/5.0 (Android 11; Mobile; rv:68.0) Gecko/68.0 Firefox/88.0')
+	headers_useragents.append('Opera/9.59 (Windows NT 5.2; sl-SI) Presto/2.9.284 Version/10.00')
+	headers_useragents.append('Opera/8.57 (X11; Linux i686; en-US) Presto/2.9.228 Version/11.00')
+	headers_useragents.append('Mozilla/5.0 (Windows; U; Windows 98; Win 9x 4.90) AppleWebKit/532.44.5 (KHTML, like Gecko) Version/4.0.1 Safari/532.44.5')
+	headers_useragents.append('Mozilla/5.0 (Windows; U; Windows NT 6.1) AppleWebKit/533.42.4 (KHTML, like Gecko) Version/4.0.5 Safari/533.42.4')
 	headers_useragents.append('Mozilla/5.0 (Android 11; Mobile; LG-M255; rv:88.0) Gecko/88.0 Firefox/88.0')
 	return(headers_useragents)
 
@@ -75,6 +79,11 @@ def useragent_list():
 def referer_list():
 	global headers_referers
 	headers_referers.append('http://www.google.com/?q=')
+	headers_referers.append('https://github.com/search?q=')
+	headers_referers.append('https://www.youtube.com/results?search_query=')
+	headers_referers.append('https://memes.com/search/?term=')
+	headers_referers.append('https://www.twitch.tv/search?term=')
+	headers_referers.append('https://www.amazon.com/s?k=')
 	headers_referers.append('https://duckduckgo.com/?q=')
 	headers_referers.append('https://yandex.com/search/?text=')
 	headers_referers.append('http://www.bing.com/search?q=')
