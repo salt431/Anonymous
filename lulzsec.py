@@ -4039,6 +4039,11 @@ def referer_list():
 def keyword_list():
         global keyword_top
 	keyword_top.append('niggers')
+	keyword_top.append('biden')
+	keyword_top.append('trump')
+	keyword_top.append('mlg')
+	keyword_top.append('minecraft')
+	keyword_top.append('dream')
 	keyword_top.append('memes')
 	keyword_top.append('coronavirus')
 	keyword_top.append('Covid 19')
