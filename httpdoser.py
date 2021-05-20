@@ -4460,7 +4460,7 @@ def useragent_list():
 	headers_useragents.append('Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)')
 	headers_useragents.append('Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML,like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)')
 	headers_useragents.append('AdsBot-Google (+http://www.google.com/adsbot.html)')
-	headers_useragents.append('FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
+	headers_useragents.append('FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)')
 	return(headers_useragents)
 
 # generates a referer array
