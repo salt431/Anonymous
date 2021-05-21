@@ -4344,6 +4344,8 @@ def useragent_list():
 	headers_useragents.append('pussysmash')
 	headers_useragents.append('favo.eu crawler/0.6 (http://www.favo.eu)')
 	headers_useragents.append('FavOrg')
+	headers_useragents.append('POW your site is dead(libx1.2)')
+	headers_useragents.append('niggerOS (since 1865!)')
 	headers_useragents.append('Favorites Checking (http://campulka.net)')
 	headers_useragents.append('Favorites Sweeper v.2.03')
 	headers_useragents.append('Faxobot/1.0')
